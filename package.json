@@ -1,0 +1,20 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "Validator1 of the MyBlockchain project",
+  "main": "node1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tendermint",
+    "Validator",
+    "Blockchain"
+  ],
+  "author": "Enrico Zanardo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "lotion": "^0.4.10"
+  }
+}

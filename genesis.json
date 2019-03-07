@@ -1,0 +1,23 @@
+{
+  "genesis_time" : "0001-01-19T00:00:00Z",
+  "chain_id" : "name",
+  "validators" : [ 
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "YBFWCPYuCc+Di4XROqDIaYJTSK6yIOmuAo4m3CLwikc="
+      },
+      "power": 10,
+      "name": "gianni"
+    },
+    {
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "Su1/4QhIdqwdrVTaWoRMtrZQnM0Tsr3W7FJ4Uqg/Whc="
+     },
+     "power": 20,
+     "name": "pinotto"
+    }
+  ],
+  "app_hash" : ""
+}
