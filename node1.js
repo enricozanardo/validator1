@@ -8,8 +8,8 @@ let app = lotion({
     initialState: { messages: [] },
     p2pPort: 30092,
     logTendermint: true,
-    keys: 'privkey1.json'
-    // peers: 'workdernode1:30092'
+    keys: 'privkey1.json',
+    peers: ['workernode0:30092']
 });
 
 app.use((state, tx, chainInfo) => {
@@ -26,4 +26,5 @@ app.use((state, tx, chainInfo) => {
 app.start(3000).then(({ GCI}) => {
     console.log(GCI)
 });
+
 
